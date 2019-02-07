@@ -111,6 +111,48 @@ function setImage(select){
     var x = parseInt(select);
 
     switch(x){
+      case 5:
+      var target_src = "result/5_14/0.5.png";
+      var result_src = "result/5_14/1.1.png";
+      var reference_src = "result/5_14/y14.png";
+      dir = "result/5_14/";
+      break;
+      case 6:
+      var target_src = "result/3_21/0.5.png";
+      var result_src = "result/3_21/1.1.png";
+      var reference_src = "result/3_21/y21.png";
+      dir = "result/3_21/";
+      break;
+      case 7:
+      var target_src = "result/12_16/0.5.png";
+      var result_src = "result/12_16/1.1.png";
+      var reference_src = "result/12_16/y16.png";
+      dir = "result/12_16/";
+      break;
+      case 8:
+      var target_src = "result/13_6/0.5.png";
+      var result_src = "result/13_6/1.1.png";
+      var reference_src = "result/13_6/y6.png";
+      dir = "result/13_6/";
+      break;
+      case 9:
+      var target_src = "result/13_8/0.5.png";
+      var result_src = "result/13_8/1.1.png";
+      var reference_src = "result/13_8/y8.png";
+      dir = "result/13_8/";
+      break;
+      case 10:
+      var target_src = "result/13_9/0.5.png";
+      var result_src = "result/13_9/1.1.png";
+      var reference_src = "result/13_9/y9.png";
+      dir = "result/13_9/";
+      break;
+      case 11:
+      var target_src = "result/13_16/0.5.png";
+      var result_src = "result/13_16/1.1.png";
+      var reference_src = "result/13_16/y16.png";
+      dir = "result/13_16/";
+      break;                                          
     	case 1:
     	var target_src = "result/10_8/0.5.png";
     	var result_src = "result/10_8/1.1.png";
@@ -219,11 +261,19 @@ function magnification(a){
 						<td align="center" colspan="3">
 							<div style="width:200px;" >
 							<select  style="color:#f2f2f2" onChange="setImage(this.options[this.selectedIndex].value);">
-						    
 						    <option style="color:gray" value="0">image 1</option>
 						    <option style="color:gray" value="1">image 2</option>
 						    <option style="color:gray" value="2">image 3</option>
 						    <option style="color:gray" value="3">image 4</option>
+                <option style="color:gray" value="4">new image 5</option>
+                <option style="color:gray" value="5">new image 6</option>
+                <option style="color:gray" value="6">new image 7</option>
+                <option style="color:gray" value="7">new image 8</option>
+                <option style="color:gray" value="8">new image 9</option>
+                <option style="color:gray" value="9">new image 10</option>
+                <option style="color:gray" value="10">new image 11</option>
+                <option style="color:gray" value="11">new image 12</option>
+
 							</select>
 							</div>
 						</td>
