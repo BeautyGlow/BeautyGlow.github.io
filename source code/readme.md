@@ -8,6 +8,7 @@ Implementation of "BeautyGlow: On-Demand Makeup Transfer Framework with Reversib
 ## Getting Started
 ### Run
 You have to train Glow on your dataset and get the latent vectors encoded from the trained glow model.
+Then run the main.py to train the latent vector decomposition matrix
 
 ```
 python3 main.py non-makeup makeup outfile
