@@ -9,5 +9,8 @@ Implementation of "BeautyGlow: On-Demand Makeup Transfer Framework with Reversib
 ### Run
 You have to trian trian Glow on your dataset and get the latent vectors encoded from the trained glow model.
 
+```
+python3 main.py non-makeup makeup outfile
+```
 
 
